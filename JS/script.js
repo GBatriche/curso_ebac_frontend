@@ -13,6 +13,6 @@ document.getElementById('validacao').addEventListener('submit', function(event) 
 
         resultado.textContent = 'Fomulário validado!';
     } else {
-        erro.textContent = 'Erro: O segundo número deve ser maior que o primeiro.';
+        erro.textContent = 'Erro: O segundo número deve ser maior que o primeiro';
     }
 });
